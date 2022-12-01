@@ -10,3 +10,54 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-image: url("https://img.freepik.com/foto-gratis/japon-calle-dia_23-2148942935.jpg?w=2000");
+}
+.fondo {
+    background: rgb(26, 25, 25);
+    border-radius: 8px;
+    border: 4px solid white;
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+
+.luzRoja {
+    background: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    margin-block: 30px;
+    transition: .3s;
+
+}
+
+.luzAmarilla {
+    background: yellow;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    margin-block: 30px;
+    transition: .3s;
+
+}
+
+.luzVerde {
+    background: green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    margin-block: 30px;
+    transition: .3s;
+
+}
+
+.encendida {
+    transition: .3s;
+    box-shadow: 0 5px 50px white ;
+}
